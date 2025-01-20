@@ -43,6 +43,57 @@ and visualize functions in a single Geogebra notebook.
 
 1. Compute:
    - $\displaystyle\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3}$
+## Solution:
+
+We are tasked with evaluating:
+
+$$
+\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3}.
+$$
+
+---
+
+### Step 1: Analyze the highest powers of \(x\)
+- The numerator is \(x^3 + 2x^2\), where the highest power is \(x^3\).
+- The denominator is \(x^4 - 3x^3\), where the highest power is \(x^4\).
+
+Thus, the degree of the denominator (\(x^4\)) is greater than that of the numerator (\(x^3\)).
+
+---
+
+### Step 2: Divide numerator and denominator by the highest power of \(x\) in the denominator
+Divide every term in the fraction by \(x^4\), the highest power of \(x\) in the denominator:
+
+$$
+\frac{x^3 + 2x^2}{x^4 - 3x^3} = \frac{\frac{x^3}{x^4} + \frac{2x^2}{x^4}}{\frac{x^4}{x^4} - \frac{3x^3}{x^4}}.
+$$
+
+Simplify each term:
+
+$$
+= \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}}.
+$$
+
+---
+
+### Step 3: Evaluate the limit as \(x \to \infty\)
+As \(x \to \infty\):
+- $\frac{1}{x} \to 0$,
+- $\frac{2}{x^2} \to 0$, and
+- $\frac{3}{x} \to 0$.
+
+Substituting these values:
+
+$$
+\frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}} \to \frac{0 + 0}{1 - 0} = 0.
+$$
+
+---
+
+### Final Answer:
+$$
+\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3} = 0.
+$$
 
 2. Find:
    
