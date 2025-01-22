@@ -98,11 +98,118 @@ $$
 2. Find:
    
    - $\displaystyle \lim_{x \to 0} \frac{\sin(3x)}{2x+1}$.
+## Solution:
+
+We are tasked with evaluating the limit:
+
+$$
+\lim_{x \to 0} \frac{\sin(3x)}{2x + 1}.
+$$
+
+---
+
+### Step 1: Substitute \(x = 0\)
+Substituting \(x = 0\) directly into the expression:
+
+$$
+\frac{\sin(3x)}{2x + 1} = \frac{\sin(0)}{2(0) + 1} = \frac{0}{1} = 0.
+$$
+
+---
+---
+
+### Final Answer:
+$$
+\lim_{x \to 0} \frac{\sin(3x)}{2x + 1} = 0.
+$$
 
 4. Find the asymptotes of the function:
   
    - $f(x) = \frac{x^2 - 1}{x^2 + 1}$
    - $g(x) = \frac{\sin(x)}{x^2+1}$
+## Solution:
+
+We are tasked with finding the asymptotes of the given functions:
+
+1. \( f(x) = \frac{x^2 - 1}{x^2 + 1} \)
+2. \( g(x) = \frac{\sin(x)}{x^2 + 1} \)
+
+---
+
+### 1. Asymptotes of \( f(x) = \frac{x^2 - 1}{x^2 + 1} \)
+
+#### Vertical Asymptotes:
+Vertical asymptotes occur when the denominator of the function is zero. For \(f(x)\):
+
+$$
+x^2 + 1 = 0 \implies x^2 = -1.
+$$
+
+Since \(x^2 = -1\) has no real solutions, there are no vertical asymptotes for \(f(x)\).
+
+#### Horizontal Asymptotes:
+Horizontal asymptotes are found by evaluating the behavior of \(f(x)\) as \(x \to \pm\infty\). For \(f(x)\), divide the numerator and denominator by \(x^2\):
+
+$$
+f(x) = \frac{x^2 - 1}{x^2 + 1} = \frac{1 - \frac{1}{x^2}}{1 + \frac{1}{x^2}}.
+$$
+
+As \(x \to \infty\) or \(x \to -\infty\), the terms \(\frac{1}{x^2} \to 0\), so:
+
+$$
+f(x) \to \frac{1 - 0}{1 + 0} = 1.
+$$
+
+Thus, the horizontal asymptote is:
+
+$$
+y = 1.
+$$
+
+#### Oblique Asymptotes:
+Since the degrees of the numerator and denominator are the same, there are no oblique asymptotes.
+
+---
+
+### 2. Asymptotes of \( g(x) = \frac{\sin(x)}{x^2 + 1} \)
+
+#### Vertical Asymptotes:
+Vertical asymptotes occur when the denominator is zero. For \(g(x)\):
+
+$$
+x^2 + 1 = 0 \implies x^2 = -1.
+$$
+
+Since \(x^2 = -1\) has no real solutions, there are no vertical asymptotes for \(g(x)\).
+
+#### Horizontal Asymptotes:
+To determine horizontal asymptotes, analyze the behavior of \(g(x)\) as \(x \to \pm\infty\). Since \(\sin(x)\) is bounded (\(-1 \leq \sin(x) \leq 1\)) and the denominator grows without bound (\(x^2 + 1 \to \infty\)):
+
+$$
+\frac{\sin(x)}{x^2 + 1} \to 0 \text{ as } x \to \pm\infty.
+$$
+
+Thus, the horizontal asymptote is:
+
+$$
+y = 0.
+$$
+
+#### Oblique Asymptotes:
+Since the degree of the numerator is less than the degree of the denominator, there are no oblique asymptotes.
+
+---
+
+### Final Results:
+- For \(f(x) = \ frac{x^2 - 1}{x^2 + 1}\):
+  - **Vertical Asymptotes**: None
+  - **Horizontal Asymptote**: \(y = 1\)
+  - **Oblique Asymptotes**: None
+
+- For \(g(x) = \frac{\sin(x)}{x^2 + 1}\):
+  - **Vertical Asymptotes**: None
+  - **Horizontal Asymptote**: \(y = 0\)
+  - **Oblique Asymptotes**: None
 
 ## Derivatives
 
